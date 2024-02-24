@@ -30,6 +30,7 @@ body {
   padding: 10px;
   width: 280px;
   border-radius: 16px;
+  flex: none;
 }
 
 .container .carrosel .item .image img {
@@ -72,4 +73,23 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   background-color: #ff7e3b;
+}
+
+.container .carrosel .item .info .price:hover {
+  cursor: pointer;
+}
+
+.container .buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.container .buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container .buttons button:first-child img {
+  transform: rotate(180deg);
 }
