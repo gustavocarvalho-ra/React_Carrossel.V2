@@ -44,7 +44,7 @@ body {
 }
 
 .container .carrosel .item .info {
-  height: 150px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,6 +81,7 @@ body {
 
 .container .carrosel .item .info .price:hover {
   cursor: pointer;
+  background: #ff600b;
 }
 
 .container .buttons {
