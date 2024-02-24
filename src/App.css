@@ -24,6 +24,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.container .carrosel::-webkit-scrollbar {
+  display: none;
+}
+
 .container .carrosel .item {
   background: white;
   margin: 10px;
@@ -40,7 +44,7 @@ body {
 }
 
 .container .carrosel .item .info {
-  height: 140px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
